@@ -15,6 +15,8 @@ function fetchProduct() {
 
 // Display products on the page
 function displayProducts(products) {
+	console.log(products);
+
 	products.forEach(product => {
 		const productDiv = document.createElement('div');
 		productDiv.classList.add('product');
